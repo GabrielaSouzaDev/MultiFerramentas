@@ -25,11 +25,11 @@ multifuncoes/
 
 │
 
-├── multifuncoes.py       # Arquivo principal contendo as funcionalidades
+├── multifuncoes.py      
 
-├── README.md             # Documentação do projeto
+├── README.md             
 
-└── tools.ico/            # Icone da tela visual
+└── tools.ico/           
 
 ## 📂 Explicação dos Arquivos
 multifuncoes.py
@@ -86,16 +86,27 @@ Conforme o projeto crescer, recomenda-se modularizar:
 
 multifuncoes/
 │
-├── modules/
+
+├── modules
+
 │   ├── downloader.py
+
 │   ├── converter.py
+
 │   ├── organizer.py
+
 │   └── utils.py
+
 │
+
 ├── assets/
+
 ├── logs/
+
 ├── multifuncoes.py
+
 └── README.md
+
 
 ## 💡 Melhorias Futuras
 - Interface gráfica melhorada
