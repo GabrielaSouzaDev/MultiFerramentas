@@ -1,0 +1,21 @@
+{
+    "claro": {
+        "tema": "light",
+        "cor_fundo": "#F7F5F0",
+        "cor_sidebar": "#EADBC8",
+        "cor_botao_nav": "#DAC0A3",
+        "cor_botao_hover": "#B0927A",
+        "cor_texto": "#4A3E3D"
+    },
+    "escuro": {
+        "tema": "dark",
+        "cor_fundo": "#1C1A17",
+        "cor_sidebar": "#2C2621",
+        "cor_botao_nav": "#3E362E",
+        "cor_botao_hover": "#54473E",
+        "cor_texto": "#F5EFE6"
+    },
+    "preferencias": {
+        "tema": "light"
+    }
+}
