@@ -7,12 +7,13 @@ import requests
 import json
 import os
 
-# Palheta de cores do Projeto (claro / escuro)
-COR_FUNDO = ("#F7F5F0", "#1C1A17")       # Off-white terroso / Areia escuro
-COR_SIDEBAR = ("#EADBC8", "#2C2621")     # Bege suave / Marrom argila profundo
-COR_BOTAO_NAV = ("#DAC0A3", "#3E362E")   # Camurça / Marrom médio
-COR_BOTAO_HOVER = ("#B0927A", "#54473E") # Terra queimada clara / Tom outonal
-COR_TEXTO = ("#4A3E3D", "#F5EFE6")       # Marrom escuro para contraste / Areia claro
+from config.colors import (
+    COR_FUNDO,
+    COR_SIDEBAR,
+    COR_BOTAO_NAV,
+    COR_BOTAO_HOVER,
+    COR_TEXTO
+)
 
 # Preferenças de tema do usuário (claro/escuro) armazenadas em um arquivo JSON
 PREFERENCIAS = 'preferencias-usuario.json'
@@ -193,7 +194,7 @@ ctk.CTkButton(frame_menu,
 
 # Modo claro/escuro
 modo_var = ctk.IntVar(value=1 if current_theme == 'dark' else 0)
-modo_text = 'Modo Claro' if current_theme == 'dark' else 'Modo Escuro'
+modo_text = 'Modo Claro' if current_theme == 'dark' else ''
 tema = ctk.CTkSwitch(frame_menu,
            text=modo_text,
            text_color=COR_TEXTO,
